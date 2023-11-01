@@ -1,4 +1,4 @@
-[**UML之靜態圖---類圖、對象圖(class diagram)**](11018339/README.md)
+[**UML之靜態圖---類圖、對象圖(class diagram)**](README.md)
 
 在學習類圖之前我們要先了解一下類，對象的概念。
 
