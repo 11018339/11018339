@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2023-11-02T12:57:56.105Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="dJTSmi0lLV4aOQMpmWxX" version="22.0.8" type="device">
+  <diagram name="第 1 页" id="PPhdmSXQ1CoikLgfEZwS">
+    <mxGraphModel dx="420" dy="666" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-15" value="Account" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="302" y="347" width="242" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-16" value="-balance : double = 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZgxIz4QGeBM-uwyUWMxA-15">
+          <mxGeometry y="26" width="242" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="ZgxIz4QGeBM-uwyUWMxA-15">
+          <mxGeometry y="52" width="242" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-36" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="ZgxIz4QGeBM-uwyUWMxA-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="277" y="54" as="sourcePoint" />
+            <mxPoint x="133" y="41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-18" value="+Deposit(amount : double) ; int&lt;br&gt;+ComputerInterest() : double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="ZgxIz4QGeBM-uwyUWMxA-15">
+          <mxGeometry y="60" width="242" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-19" value="屬性名稱" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="355" width="65" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-20" value="可見性&lt;br&gt;-代表private&lt;br&gt;+代表public&lt;br&gt;#代表protected&lt;br&gt;也可以使用圖形表示" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="134" y="396" width="129" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-21" value="參數列表" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="352" y="490" width="65" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-22" value="操作名稱&lt;br&gt;斜體為抽象操作" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="454" y="490" width="116" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-23" value="返回值類型" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="589" y="452" width="65" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-24" value="缺省值" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="589" y="390" width="65" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-25" value="類名&lt;br&gt;斜體為抽象類&lt;br&gt;" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="589" y="337" width="99" height="36.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-35" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="581" y="361" as="sourcePoint" />
+            <mxPoint x="466" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-37" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="574" y="457" as="sourcePoint" />
+            <mxPoint x="481" y="424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-38" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="472" y="484" as="sourcePoint" />
+            <mxPoint x="406" y="444" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-39" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="379" y="484" as="sourcePoint" />
+            <mxPoint x="379" y="426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-40" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="247" y="368" as="sourcePoint" />
+            <mxPoint x="302" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZgxIz4QGeBM-uwyUWMxA-41" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="265" y="430" as="sourcePoint" />
+            <mxPoint x="309" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
